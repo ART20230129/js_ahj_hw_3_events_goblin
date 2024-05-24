@@ -1,0 +1,59 @@
+p {
+        color: rgb(221, 23, 23);
+        text-align: center; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+}
+
+.container {
+        margin: 0;
+        padding: 0%;
+        width: 440px;
+        height: 438px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* background: rgb(240, 8, 8); */
+        margin: 0 auto; 
+        cursor: url('../img/hammer.png'), auto;
+}
+
+.cell {
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 2px;
+        background: rgb(147, 234, 166);
+        border: 2px solid navy;
+        border-radius: 10%;
+}
+
+.goblin {
+        background-image: url('../img/goblin.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+}
+
+.hit_1 {
+        color: rgb(49, 4, 113);
+        margin-right: auto;
+}
+
+.mis_1 {
+        color: rgb(209, 41, 41);
+}
+
+.containers_1 {
+        margin: 0 auto; 
+        padding: 0;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+}
